@@ -55,7 +55,7 @@ Let's look at that failure message again: `Expected undefined to be 'high card'.
 
 In another tab of your text editor, open `AnteUp.js`. You can see that it contains the `AnteUp` object, with a function `read()`. It's not hard to see why our test failed... `read()` has no return value at all!
 
-Delete the line that says `// Your code here!` and replace in with `return "high card"`.
+Delete the line that says `// Your code here!` and replace it with `return "high card"`.
 
 Save the file and refresh `SpecRunner.html` in your browser. That line of 27 red Xs should now be 3 green circles followed by 24 red Xs. The next line should say "27 specs, 24 failures". If you click `Spec List`, you will see that the first batch of tests, under the "high card" group, are all passing.
 
